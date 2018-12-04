@@ -1,4 +1,4 @@
-@-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { body { background: #2b2b2b; color: #a9b7c6; }
+@-moz-document regexp("https://[^./]*\\.slack\\.com/(?!pricing)(?!security).*") { body { background: #2b2b2b !important; color: #a9b7c6; }
   a { color: #d7b264; }
   a:link, a:visited { color: #d7b264; }
   a:hover, a:active, a:focus { color: #d7b264; }
@@ -433,7 +433,7 @@
   .c-message--standalone { border-color: rgba(84, 84, 84, 0.1); }
   .c-message--unprocessed .c-message__body { animation: to-grey 50ms linear 10s forwards; }
   .c-message__broadcast_preamble_outer, .c-message__broadcast_preamble { color: #949494; }
-  .c-message__sender { color: #a9b7c6; }
+  .c-message__sender { color: #fff; }
   .c-message__sender a { color: #a9b7c6; }
   .c-message__sender .c-emoji__text_mode_icon { color: #949494; }
   .c-message__body { color: #a9b7c6; }
@@ -2235,6 +2235,7 @@ code { background-color: var(--background-input); }
 /** Main chat window, secondary @tag color, hover directly over tag. */
 .c-deprecated_button--link:hover { color: var(--tag-text-hover) !important;}
 
+/** SIDEBAR */
 
 /** Main sidebar background. */
 .c-scrollbar__hider { background: var(--background-sidebar); }
