@@ -191,12 +191,12 @@
   #message_edit_container .inline_message_input_container, #message_edit_container .inline_message_input_container.with_file_upload, #threads_msgs .inline_message_input_container, #threads_msgs .inline_message_input_container.with_file_upload, #reply_container.upload_in_threads .inline_message_input_container, #reply_container.upload_in_threads .inline_message_input_container.with_file_upload { background: #545454; border-color: #363636; color: #a9b7c6; }
   .inline_message_input_container .ql-container { border-color: #545454; }
   .inline_message_input_container .ql-container.focus, .inline_message_input_container .ql-container:active, .inline_message_input_container .ql-container:hover { border-color: #828282; }
-  .c-message--editing { background: #363636; border-color: #363636; color: #a9b7c6; }
+  .c-message--editing { background: #313335; border-color: #363636; color: #a9b7c6; }
   .c-message__editor__input { background: #545454; border-color: #363636; color: #a9b7c6; }
   .c-message__editor__input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
   .c-message__editor__warning { color: #bf360c; }
-  #message_edit_container .message_input { background: #545454; border-color: #363636; color: #a9b7c6; }
-  #message_edit_container .message_input.focus { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
+  #message_edit_container .message_input { background: #313335; border-color: #363636; color: #a9b7c6; }
+  #message_edit_container .message_input.focus { border-color: #313335; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
   .ql-editor::-webkit-scrollbar-thumb { background-color: rgba(84, 84, 84, 0.5); color: #2b2b2b; }
   .ql-editor::-webkit-scrollbar-thumb:hover { background-color: rgba(84, 84, 84, 0.8); }
   .ql-placeholder, .texty_legacy .ql-placeholder { color: #a9b7c6; filter: none; }
@@ -379,7 +379,7 @@
   #edit_topic_trigger { color: #949494; }
   .c-message_list__day_divider__label { color: #949494; }
   .c-message_list__day_divider__label__pill { background: #2b2b2b; position: relative; }
-  .c-message_list__day_divider__line { border-top-color: #363636; }
+  .c-message_list__day_divider__line { border-top-color: #313335; }
   .day_divider, .mention_day_container_div .day_divider { background: #2b2b2b; color: #949494; }
   .day_divider hr, .mention_day_container_div .day_divider hr { border-bottom: 0; border-top: 1px solid #363636; }
   .day_divider .day_divider_label { background: #2b2b2b; }
