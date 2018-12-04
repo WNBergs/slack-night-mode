@@ -434,7 +434,7 @@
   .c-message--unprocessed .c-message__body { animation: to-grey 50ms linear 10s forwards; }
   .c-message__broadcast_preamble_outer, .c-message__broadcast_preamble { color: #949494; }
   .c-message__sender { color: #fff; }
-  .c-message__sender a { color: #a9b7c6; }
+  .c-message__sender a { color: #fff; }
   .c-message__sender .c-emoji__text_mode_icon { color: #949494; }
   .c-message__body { color: #a9b7c6; }
   .c-message__body--unknown { background: rgba(84, 84, 84, 0.1); }
@@ -763,7 +763,7 @@
   .dense_theme ts-message { color: #a9b7c6; }
   .dense_theme ts-message.first .message_gutter .timestamp, .dense_theme ts-message.selected .message_gutter .timestamp { color: #949494; }
   .dense_theme ts-message .message_content .message_current_status { border-color: #363636; }
-  .c-message--light .c-message__sender .c-message__sender_link { color: #a9b7c6; }
+  .c-message--light .c-message__sender .c-message__sender_link { color: #fff; }
   .light_theme ts-message { color: #a9b7c6; }
   .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #a9b7c6 !important; }
   .light_theme ts-message .comment::before { color: #949494; }
