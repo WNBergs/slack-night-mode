@@ -2123,15 +2123,15 @@ div.c-message.c-message--light.c-message--hover {
 span.c-message__body { color: var(--text) !important; }
 
 /** Main chat window, links. */
-span.c-message__body > a { color: var(--text-link) !important; }
+span.c-message__body > a { color: #cc7832 !important; }
 
 /*!** Main chat window, link to message sender. *!*/
-a.c-message__sender_link { color: var(--text-sender) !important; }
+a.c-message__sender_link { color: #fff !important; }
 
 /** Background for message reactions. */
 .c-reaction {
-  background: var(--background-dark);
-  border:     1px solid var(--background-light);
+  background: #2b2b2b;
+  border:     1px solid #2b2b2b;
 }
 
 /** "Header" at beginning of chat history. **/
@@ -2148,13 +2148,13 @@ a.c-message__sender_link { color: var(--text-sender) !important; }
 #edit_topic_inner:not(.unable_to_post):before { background: var(--background-light); }
 
 /** Message entry area. */
-.ql-editor { background: var(--background-dark); }
+.ql-editor { background: var(--background); }
 
 /** Message placeholder text color. */
 .ql-placeholder { color: var(--text-light) !important; }
 
 /** Search bar background. */
-.search_form { background: var(--background-dark); }
+.search_form { background: var(--background); }
 
 /** Search bar background. */
 .search_input_wrapper { background: var(--background); }
@@ -2169,13 +2169,21 @@ a.c-message__sender_link { color: var(--text-sender) !important; }
 
 /** Top divider pill thingy?  It tells you what day you're looking at in the chat history, top of the window. */
 .c-message_list__day_divider__label__pill {
-  background: var(--divider-color);
-  color:      var(--divider-text);
+  background: #2b2b2b;
+  color:      #49473f;
 }
 
 /** Divider mid-chat. */
 .c-message_list__day_divider__line {
   border-top: 1px solid var(--divider-color)
+}
+
+.c-message_list__unread_divider__label {
+  background: #2b2b2b;
+}
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+  background: #2b2b2b;
 }
 
 /*************** Quoted/Attached Messages ***************/
@@ -2212,16 +2220,16 @@ code { background-color: var(--background-input); }
 .c-app_badge { background: var(--background-dark); }
 
 /** Main chat window, @tag background. */
-.c-member_slug--link { background: var(--background-tag); }
+.c-member_slug--link { background: #313335; }
 
 /** Main chat window, @tag color. */
-.c-member_slug--link { color: var(--tag-text) !important; }
+.c-member_slug--link { color: #e8bf6a !important; }
 
 /** Main chat window, @tag background, hover directly over tag. */
-.c-member_slug--link:hover { background: var(--background-tag-hover); }
+.c-member_slug--link:hover { background: #3c3f41; }
 
 /** Main chat window, @tag color, hover directly over tag. */
-.c-member_slug--link:hover { color: var(--tag-text-hover) !important; }
+.c-member_slug--link:hover { color: #e8bf6a !important; }
 
 /** Main chat window, secondary @tag background. */
 .c-deprecated_button--link { background: var(--background-tag); }
